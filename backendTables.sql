@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS Users CASCADE;
+
+CREATE TABLE Users(
+	userID INT NOT NULL AUTO_INCREMENT,
+    userName VARCHAR(30) NULL,    
+    password VARCHAR(30) NULL,
+    favChef VARCHAR(30) NULL,
+	PRIMARY KEY(userID)) ENGINE=InnoDB;
+
+USE login_schema;
+
+#SELECT * FROM Users;
