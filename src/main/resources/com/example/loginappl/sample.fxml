@@ -36,12 +36,12 @@
                   <Font name="Arial Bold" size="24.0" />
                </font>
             </Label>
-            <Label layoutX="76.0" layoutY="62.0" text="Username">
+            <Label layoutX="89.0" layoutY="65.0" text="Username">
                <font>
                   <Font name="Arial Bold" size="16.0" />
                </font>
             </Label>
-            <Label layoutX="76.0" layoutY="112.0" text="Password">
+            <Label layoutX="90.0" layoutY="115.0" text="Password">
                <font>
                   <Font name="Arial Bold" size="16.0" />
                </font>
@@ -70,7 +70,16 @@
                   <Font name="Arial Bold" size="16.0" />
                </font>
             </Label>
+            <ImageView fitHeight="26.0" fitWidth="21.0" layoutX="60.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgIconL.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="60.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgIconP.png" />
+               </image>
+            </ImageView>
          </children></AnchorPane>
-      <AnchorPane prefHeight="112.0" prefWidth="600.0" style="-fx-background-color: deeff5;" />
    </children>
 </VBox>
