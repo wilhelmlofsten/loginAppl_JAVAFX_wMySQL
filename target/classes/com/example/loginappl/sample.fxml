@@ -1,16 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.loginappl.Controller">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="104.0" prefWidth="600.0" style="-fx-background-color: #8AC7DB;">
+         <children>
+            <ImageView fitHeight="108.0" fitWidth="160.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgNew2.png" />
+               </image></ImageView>
+            <ImageView fitHeight="115.0" fitWidth="128.0" layoutX="500.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgNew3.png" />
+               </image></ImageView>
+            <Label layoutX="242.0" layoutY="14.0" prefHeight="43.0" prefWidth="114.0" text="Welcome to">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="60.0" text="Cookie Contributor">
+               <font>
+                  <Font name="Franklin Gothic Heavy Italic" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="325.0" prefWidth="600.0" style="-fx-background-color: deeff5;">
+         <children>
+            <Label layoutX="60.0" layoutY="14.0" text="Login ">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="89.0" layoutY="65.0" text="Username">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="90.0" layoutY="115.0" text="Password">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="178.0" layoutY="62.0" prefHeight="26.0" prefWidth="251.0" promptText="Username">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tf_password" layoutX="178.0" layoutY="112.0" prefHeight="26.0" prefWidth="251.0" promptText="Password" />
+            <ImageView fitHeight="43.0" fitWidth="33.0" layoutX="134.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgNew4.png" />
+               </image></ImageView>
+            <Button fx:id="button_login" layoutX="215.0" layoutY="152.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="148.0" style="-fx-background-color: #338BA8; -fx-cursor: hand;" text="Login">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_sign_up" layoutX="247.0" layoutY="208.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="126.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Sign me up!" textFill="#0c0ce8" underline="true">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font></Button>
+            <Label layoutX="172.0" layoutY="214.0" prefHeight="20.0" prefWidth="86.0" text="New User?">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="26.0" fitWidth="21.0" layoutX="60.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgIconL.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="21.0" layoutX="60.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgIconP.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
 </VBox>

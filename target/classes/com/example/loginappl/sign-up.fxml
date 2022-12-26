@@ -1,14 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.loginappl.SignUpController"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="124.0" prefWidth="600.0" style="-fx-background-color: #8AC7DB;">
+         <children>
+            <Label layoutX="185.0" layoutY="47.0" text="Cookie Contributor">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="22.0" />
+               </font></Label>
+            <Label layoutX="255.0" layoutY="80.0" text="Sign up">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Label>
+            <ImageView fitHeight="85.0" fitWidth="118.0" layoutX="34.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgNew2.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="283.0" prefWidth="600.0" style="-fx-background-color: deeff5;">
+         <children>
+            <Label layoutX="85.0" layoutY="44.0" text="Username">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+            <Label layoutX="87.0" layoutY="91.0" text="Password">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+            <Label layoutX="85.0" layoutY="142.0" text="Favourite chef">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+            <Button fx:id="button_sign_up" layoutX="187.0" layoutY="183.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="215.0" style="-fx-background-color: #338BA8; -fx-cursor: hand;" text="Sign me up!">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font></Button>
+            <TextField fx:id="tf_username" layoutX="187.0" layoutY="41.0" prefHeight="26.0" prefWidth="215.0" />
+            <TextField fx:id="tf_password" layoutX="187.0" layoutY="88.0" prefHeight="26.0" prefWidth="215.0" />
+            <TextField fx:id="tf_favChef" layoutX="187.0" layoutY="138.0" prefHeight="26.0" prefWidth="215.0" promptText="CookieMonster?" />
+            <ImageView fitHeight="130.0" fitWidth="131.0" layoutX="453.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgChef.png" />
+               </image></ImageView>
+            <Button fx:id="button_log_in" layoutX="241.0" layoutY="237.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="log in again" textFill="#2812cf" underline="true">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="179.0" layoutY="243.0" prefHeight="20.0" prefWidth="77.0" text="Or maybe ">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</VBox>
