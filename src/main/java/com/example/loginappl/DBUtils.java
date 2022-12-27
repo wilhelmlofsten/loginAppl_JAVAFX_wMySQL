@@ -53,7 +53,7 @@ public class DBUtils {
 
         try {
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/login_schema", "root", "givemeyob123!");
-            psCheckIfUserExists =connection.prepareStatement("SELECT * FROM Users WHERE userName = ?");
+            psCheckIfUserExists =connection.prepareStatement("SELECT * FROM Users WHERE username = ?");
             psCheckIfUserExists.setString(1,username);
             resultSet =psCheckIfUserExists.executeQuery();
 
@@ -64,7 +64,7 @@ public class DBUtils {
                 alert.show();
 
             } else{
-                psInsert = connection.prepareStatement("INSERT INTO Users (userName, password, favChef VALUES (?, ?, ?))");
+                psInsert = connection.prepareStatement("INSERT INTO Users (username, password, favChef) VALUES (?, ?, ?)");
                 psInsert.setString(1,username);
                 psInsert.setString(2,password);
                 psInsert.setString(3, favChef);
@@ -116,7 +116,7 @@ public class DBUtils {
 
         try{
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/login_schema", "root", "givemeyob123!");
-            preparedStatement = connection.prepareStatement("SELECT password, favChef FROM Users WHERE userName = ?");
+            preparedStatement = connection.prepareStatement("SELECT password, favChef FROM Users WHERE username = ?");
             preparedStatement.setString(1,username);
             resultSet = preparedStatement.executeQuery();
 

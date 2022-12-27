@@ -11,14 +11,14 @@
          <font>
             <Font name="Arial Bold" size="18.0" />
          </font></Button>
-      <Label fx:id="label_welcome_user" layoutX="241.0" layoutY="38.0" prefHeight="32.0" prefWidth="118.0" text="Welcome ! ">
+      <Label fx:id="label_welcome_user" layoutX="190.0" layoutY="55.0" prefHeight="32.0" prefWidth="304.0" text="Welcome ! ">
          <font>
             <Font name="Arial Bold" size="20.0" />
          </font>
       </Label>
-      <Label fx:id="label_signed_in" layoutX="194.0" layoutY="70.0" text="You are now signed in">
+      <Label fx:id="label_signed_in" layoutX="166.0" layoutY="87.0" text="You are now signed in">
          <font>
-            <Font name="Arial Bold" size="20.0" />
+            <Font name="Arial Bold" size="22.0" />
          </font>
       </Label>
       <Label fx:id="label_favChef" layoutX="47.0" layoutY="158.0" text="Good choice with:">
