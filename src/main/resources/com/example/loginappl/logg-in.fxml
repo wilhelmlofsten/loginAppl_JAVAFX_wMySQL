@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
@@ -10,15 +11,25 @@
          <font>
             <Font name="Arial Bold" size="18.0" />
          </font></Button>
-      <Label layoutX="241.0" layoutY="38.0" prefHeight="32.0" prefWidth="118.0" text="Welcome! ">
+      <Label fx:id="label_welcome_user" layoutX="241.0" layoutY="38.0" prefHeight="32.0" prefWidth="118.0" text="Welcome ! ">
          <font>
             <Font name="Arial Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="194.0" layoutY="70.0" text="You are now signed in">
+      <Label fx:id="label_signed_in" layoutX="194.0" layoutY="70.0" text="You are now signed in">
          <font>
             <Font name="Arial Bold" size="20.0" />
          </font>
       </Label>
+      <Label fx:id="label_favChef" layoutX="47.0" layoutY="158.0" text="Good choice with:">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="469.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgCMChef.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

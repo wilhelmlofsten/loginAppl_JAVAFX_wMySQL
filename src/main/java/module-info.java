@@ -8,6 +8,7 @@ module com.example.loginappl {
     requires validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires eu.hansolo.tilesfx;
+    requires java.sql;
 
     opens com.example.loginappl to javafx.fxml;
     exports com.example.loginappl;
