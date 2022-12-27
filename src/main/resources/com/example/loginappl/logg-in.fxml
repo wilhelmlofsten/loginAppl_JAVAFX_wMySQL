@@ -21,7 +21,7 @@
             <Font name="Arial Bold" size="22.0" />
          </font>
       </Label>
-      <Label fx:id="label_favChef" layoutX="47.0" layoutY="158.0" text="Good choice with:">
+      <Label fx:id="label_favChef" layoutX="31.0" layoutY="169.0" text="Good choice with:">
          <font>
             <Font name="Arial Bold" size="20.0" />
          </font>
