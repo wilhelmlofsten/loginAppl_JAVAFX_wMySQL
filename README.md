@@ -13,7 +13,7 @@ The project was made in IntelliJ IDEA 2021 and revolved around these technologie
 ## Display of creating, logging in:
 <img src=readmeIMG/displayOfSignUp.gif width="650" height="450">
 
-## Image of checking that the user exists in the database:
+## Display that the user now exists in the database:
 
 <img src=readmeIMG/updTable.gif width="650" height="450">
 
