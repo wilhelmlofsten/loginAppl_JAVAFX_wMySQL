@@ -11,14 +11,17 @@ The project was made in IntelliJ IDEA 2021 and revolved around these technologie
 - JDBC
 
 ##Display of creating, logging in:
+
 <img src=readmeIMG/displayOfSignUp.gif width="650" height="450">
 
 ## Image of checking that the user exists in the database:
+
 <img src=readmeIMG/updTable.gif width="650" height="450">
 
 <img src=readmeIMG/imgUpdTable.png width="500" height="270">
 
 ##Display of testing incorrect input and wrong password:
+
 <img src=readmeIMG/displayTest.gif width="650" height="450">
 
-##Testcode is to be written and displayed in short time!
+Testcode is to be written and displayed in short time!
