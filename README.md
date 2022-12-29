@@ -1,4 +1,4 @@
-![Image of logo](https://imgur.com/yR2R52b)
+![Alt Text](https://imgur.com/yR2R52b)
 # Registratior Project - Cookie Contributor
 
 ### JavaFX application with database connectivity. In this JavaFX application project, I made an account registrator where we store user registration form data into MySQL database using JDBC API.
