@@ -23,7 +23,7 @@
                </image>
             </ImageView>
          </children></AnchorPane>
-      <AnchorPane prefHeight="283.0" prefWidth="600.0" style="-fx-background-color: deeff5;">
+      <AnchorPane prefHeight="304.0" prefWidth="600.0" style="-fx-background-color: deeff5;">
          <children>
             <Label layoutX="85.0" layoutY="44.0" text="Username">
                <font>

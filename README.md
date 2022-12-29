@@ -11,9 +11,12 @@ The project was made in IntelliJ IDEA 2021 and revolved around these technologie
 - JDBC
 
 ##Display of creating, logging in:
+<img src=readmeIMG/displayOfSignUp.gif width="300" height="300">
 
-##Checking that the user exists in the database:
+## Image of checking that the user exists in the database:
+<img src=readmeIMG/displayTest.gif width="300" height="300">
 
+<img src=readmeIMG/imgUpdTable.png width="200" height="200">
 
 ##Display of testing incorrect input and wrong password:
 
