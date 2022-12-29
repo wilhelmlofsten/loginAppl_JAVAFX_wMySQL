@@ -17,7 +17,6 @@ The project was made in IntelliJ IDEA 2021 and revolved around these technologie
 
 <img src=readmeIMG/updTable.gif width="650" height="450">
 
-<img src=readmeIMG/imgUpdTable.png width="500" height="270">
 
 ## Display of testing incorrect input and wrong password:
 
