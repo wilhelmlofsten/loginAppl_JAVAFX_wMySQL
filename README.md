@@ -10,8 +10,7 @@ The project was made in IntelliJ IDEA 2021 and revolved around these technologie
 - MySQL Connector Java - 8.0.31
 - JDBC
 
-##Display of creating, logging in:
-
+## Display of creating, logging in:
 <img src=readmeIMG/displayOfSignUp.gif width="650" height="450">
 
 ## Image of checking that the user exists in the database:
@@ -20,7 +19,7 @@ The project was made in IntelliJ IDEA 2021 and revolved around these technologie
 
 <img src=readmeIMG/imgUpdTable.png width="500" height="270">
 
-##Display of testing incorrect input and wrong password:
+## Display of testing incorrect input and wrong password:
 
 <img src=readmeIMG/displayTest.gif width="650" height="450">
 
