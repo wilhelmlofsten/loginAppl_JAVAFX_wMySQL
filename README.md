@@ -1,4 +1,4 @@
-![Screenshot](CMLogo.png)
+<img src=readmeIMG/CMLogo.png width="100" height="100">
 # Registratior Project - Cookie Contributor
 
 ### JavaFX application with database connectivity. In this JavaFX application project, I made an account registrator where we store user registration form data into MySQL database using JDBC API.
