@@ -1,18 +1,18 @@
-<img src=readmeIMG/CMLogo.png width="100" height="100">
-# Registratior Project - Cookie Contributor
+<img src=readmeIMG/CMLogo.png width="150" height="150">
+
+## Registratior Project - Cookie Contributor
 
 ### JavaFX application with database connectivity. In this JavaFX application project, I made an account registrator where we store user registration form data into MySQL database using JDBC API.
 The project was made in IntelliJ IDEA 2021 and revolved around these technologies:
--JDK 1.8
--JavaFX
--FXML
--MySQL Connector Java - 8.0.31
--JDBC
-
+- JDK 1.8
+- JavaFX
+- FXML
+- MySQL Connector Java - 8.0.31
+- JDBC
 
 ##Display of creating, logging in:
 
-## checking that the user exists in the database:
+##Checking that the user exists in the database:
 
 
 ##Display of testing incorrect input and wrong password:
